@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react";
 
-const ttydUrl = "http://136.71.44.7:8080/";
+const ttydUrl = "https://conversations-lover-intersection-repair.trycloudflare.com ";
 
 export default function TtydConsole() {
   const frameRef = useRef<HTMLDivElement>(null);
