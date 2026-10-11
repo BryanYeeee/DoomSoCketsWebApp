@@ -16,7 +16,14 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The combat console embeds ttyd at `http://136.71.44.7:8080/`. Authentication
+is handled by ttyd in the browser; no username or password is stored in this
+application. The console includes fullscreen, login/reconnect, and logout
+controls. Browsers may retain HTTP Basic Auth credentials after logout; use a
+new private window or clear saved credentials to switch accounts.
+
+You can start editing the page by modifying `src/app/page.tsx`. The page
+auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
