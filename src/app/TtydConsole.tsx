@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react";
 
-const ttydUrl = "https://seasonal-limit-beef-patrick.trycloudflare.com";
+const ttydUrl = "https://thoughts-cotton-targets-zen.trycloudflare.com";
 
 export default function TtydConsole() {
   const frameRef = useRef<HTMLDivElement>(null);
